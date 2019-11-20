@@ -2,7 +2,7 @@
   "name": "react-breadcrumbs-json",
   "version": "1.0.3",
   "description": "Building breadcrumb through json",
-  "main": "lib/breadcrumbRoute.js",
+  "main": "lib/BredcrumbRoute.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
