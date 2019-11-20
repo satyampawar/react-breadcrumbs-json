@@ -8,6 +8,8 @@ It's simple component that will be use for render Breadcrumb using json format
 'npm install react-breadcrumbs-json'
 
 ## Usage basic
+
+```jsx
 import BreadcrumbRoute from 'react-breadcrumbs-json'
 const jsonData = {
   "data": [{

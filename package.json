@@ -1,6 +1,6 @@
 {
   "name": "react-breadcrumbs-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Building breadcrumb through json",
   "main": "lib/breadcrumbRoute.js",
   "scripts": {
