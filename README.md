@@ -1,4 +1,4 @@
-# map-lat-lng
+# react-breadcrumbs-json
 
 
 It's simple component that will be use for render Breadcrumb using json format
@@ -8,32 +8,7 @@ It's simple component that will be use for render Breadcrumb using json format
 'npm install react-breadcrumbs-json'
 
 ## Usage basic
-
-
-const jsonData = {
-  "data": [{
-         "id": 1,
-         "path": "/home",
-         "name": "Home",
-         "is_parent": true
-      },{
-         "id": 2,
-         "path": "/home2",
-         "name": "Home2",
-         "parent_id": 1
-      },{
-        "id": 3,
-         "path": "/home3",
-         "name": "Home3",
-         "parent_id": 2
-      }
-
-      
-      ]
-};
 import BreadcrumbRoute from 'react-breadcrumbs-json'
-
-
 const jsonData = {
   "data": [{
          "id": 1,
@@ -69,6 +44,7 @@ const jsonData = {
  />
 
 ''''
+
 ## Props
 
 #### `jsonData` (required)
